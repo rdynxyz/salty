@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full h-24 fixed md:relative bg-background">
+  <nav class="w-full h-24 fixed md:relative bg-background z-[9999]">
     <div class=" container h-full m-auto flex items-center px-6  ">
         <div class="flex items-center w-full">
             <div class="flex items-center z-50">
