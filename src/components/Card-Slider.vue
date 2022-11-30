@@ -2,8 +2,8 @@
     <section class="relative w-full overflow-hidden">
         <div class="container m-auto pt-28 px-6 pb-6 text-primary">
             <!-- Header -->
-            <div class="md:flex justify-between items-center container m-auto">
-                <h1 class="font-Inter font-semibold text-[56px] leading-[66px]">Find Popular <br> Destination</h1>
+            <div class="sm:flex justify-between items-center container m-auto">
+                <h1 class="font-Inter font-semibold  text-5xl md:text-[56px] leading-[66px]">Find Popular <br> Destination</h1>
                 <div class="mt-9 lg:mt-0 flex justify-center">
                     <button class=" bg-transparent border-[1px] border-primary w-[54px] h-[54px] rounded-full mr-4">
                         <img :src="`./assets/icons/Arrow Left.svg`" alt="" loading="lazy" class="m-auto">

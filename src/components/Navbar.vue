@@ -1,12 +1,12 @@
 <template>
   <nav class="w-full h-24 fixed md:relative bg-background z-[9999]">
     <div class=" container h-full m-auto flex items-center px-6  ">
-        <div class="flex items-center w-full">
+        <div class="flex items-center w-full relative">
             <div class="flex items-center z-50">
                 <img src="../assets/Union.svg" alt="" loading="lazy">
                 <span class="font-Sen font-bold text-xl text-primary">Salty</span>
             </div>
-            <span @click="MenuOpen()" class="absolute block md:hidden right-6 text-2xl z-50">
+            <span @click="MenuOpen()" class="absolute block md:hidden right-0 text-2xl z-50">
                 <i :class="[open ? 'fa-solid fa-xmark' : 'fa-solid fa-bars']"></i>
             </span>
             <div class="md:flex pt-40 justify-between md:pt-0 md:ml-16 md:relative fixed bg-background h-full top-0 bottom-0 md:left-auto left-0 w-full pl-6 md:pl-0 md:top-auto md:h-auto md:bg-transparent z-40 ease-in-out duration-300 "

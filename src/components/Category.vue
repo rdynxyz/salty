@@ -1,14 +1,22 @@
 <template>
   <div class="container m-auto bg-re-500 px-6 mt-16 text-primary">
     <div class="font-Inter relative">
-        <h1 class="font-semibold text-[56px]">Categories</h1>
-        <h2 class="text-base text-secondary mt-2">Here are lots of interesting destinations to visit, <br> but don’t be confused—they’re already grouped <br> by category.</h2>
-        <button class="absolute right-0 top-4 bg-primary w-[54px] h-[54px] rounded-full ">
-            <img :src="`./assets/icons/Arrow Right.svg`" alt="" loading="lazy" class="m-auto">
-        </button>
-        <button class="absolute right-[72px] top-4 bg-transparent border-[1px] border-primary w-[54px] h-[54px] rounded-full ">
-            <img :src="`./assets/icons/Arrow Left.svg`" alt="" loading="lazy" class="m-auto">
-        </button>
+        <div class="sm:flex w-full justify-between">
+
+            <div class="">
+                <h1 class="font-semibold text-5xl md:text-[56px] leading-[56px]">Categories</h1>
+                <h2 class="text-base text-secondary mt-2 hidden xs:block">Here are lots of interesting destinations to visit, <br> but don’t be confused—they’re already grouped <br> by category.</h2>
+                <h2 class="text-base text-secondary mt-2 xs:hidden">Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by category.</h2>
+            </div>
+            <div class="mt-9 sm:mt-0 flex justify-center">
+                <button class="bg-transparent border-[1px] border-primary w-[54px] h-[54px] rounded-full mr-4">
+                    <img :src="`./assets/icons/Arrow Left.svg`" alt="" loading="lazy" class="m-auto">
+                </button>
+                <button class=" bg-primary w-[54px] h-[54px] rounded-full ">
+                    <img :src="`./assets/icons/Arrow Right.svg`" alt="" loading="lazy" class="m-auto">
+                </button>
+            </div>
+        </div>
         <div class="w-full grid grid-cols-3 md:grid-cols-6 mt-16 gap-[30px]">
             <div class="" v-for="image in Images" :key="image" >
                 <div class="relative group cursor-pointer rounded-full">

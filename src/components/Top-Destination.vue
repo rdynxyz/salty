@@ -2,7 +2,7 @@
     <section>
         <div class="container m-auto px-6 pt-28 pb-6 text-primary font-Inter">
             <div class="flex flex-col items-center">
-                <h1 class="text-[56px] font-semibold">Top Destinations</h1>
+                <h1 class="text-5xl md:text-[56px] font-semibold leading-[66px]">Top Destinations</h1>
                 <span class="text-secondary text-base mt-3">Sost Brilliant reasons Entrada should be your
                     one-stop-shop!</span>
             </div>

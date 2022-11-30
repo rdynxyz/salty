@@ -1,7 +1,8 @@
 <template>
     <div class="pt-28 md:pt-0 container m-auto lg:h-[624px] flex flex-col lg:flex-row items-center px-6 text-primary">
         <div class="w-full lg:w-1/2 flex flex-col">
-            <h1 class="font-Sen font-bold text-6xl md:text-[84px] md:leading-[86px]">Discover the <br> Best Lovely <br> Places</h1>
+            <h1 class="font-Sen font-bold text-6xl md:text-[84px] md:leading-[86px] hidden xs:block">Discover the <br> Best Lovely <br> Places</h1>
+            <h1 class="font-Sen font-bold text-6xl md:text-[84px] md:leading-[86px] xs:hidden ">Discover the Best Lovely Places</h1>
             <p class="font-Inter leading-7 text-secondary text-lg mt-[26px]">Plan and book your perfect trip with expert advice, travel <br> tips, destination information and inspiration from us.</p>
             <div class="w-full md:w-[500px] h-[76px] bg-white rounded-full mt-[44px] flex items-center justify-between px-5">
                 <div class="flex w-[406px] justify-between pr-14">
