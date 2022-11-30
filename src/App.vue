@@ -7,6 +7,7 @@
   import TopDestination from './components/Top-Destination.vue'
   import Testimonial from './components/Testimonial.vue'
   import Newsletter from './components/Newsletter.vue'
+  import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -19,6 +20,7 @@
     <TopDestination/>
     <Testimonial/>
     <Newsletter/>
+    <Footer/>
 
   </div>
 

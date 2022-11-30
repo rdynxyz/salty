@@ -1,10 +1,10 @@
 <template>
   <section>
-    <div class="container m-auto px-6 pt-28 pb-6 text-primary font-Inter md:flex">
-        <div class="w-full md:w-1/2 flex justify-center">
+    <div class="container m-auto px-6 pt-28 pb-6 text-primary font-Inter lg:flex">
+        <div class="w-full lg:w-1/2 flex justify-center">
               <img :src="`./assets/img/guy.png`" alt="" class="bg-[#EE8162] rounded-full w-[390px]">
         </div>
-        <div class="w-full md:w-1/2">
+        <div class="w-full lg:w-1/2">
           <div class="w-16 h-2 bg-[#FFD482] rounded-full"></div>
           <h1 class="text-5xl md:text-[56px] font-semibold leading-[66px] mt-3 hidden sm:block">A Customer Said <br> About Us:</h1>
           <h1 class="text-5xl md:text-[56px] font-semibold leading-[66px] mt-3 sm:hidden">A Customer Said About Us:</h1>
