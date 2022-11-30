@@ -6,10 +6,10 @@
                 <h1 class="font-Inter font-semibold text-[56px] leading-[66px]">Find Popular <br> Destination</h1>
                 <div class="mt-9 lg:mt-0 flex justify-center">
                     <button class=" bg-transparent border-[1px] border-primary w-[54px] h-[54px] rounded-full mr-4">
-                        <img :src="`./assets/icons/Arrow Left.svg`" alt="" class="m-auto">
+                        <img :src="`./assets/icons/Arrow Left.svg`" alt="" loading="lazy" class="m-auto">
                     </button>
                     <button class=" bg-primary w-[54px] h-[54px] rounded-full ">
-                        <img :src="`./assets/icons/Arrow Right.svg`" alt="" class="m-auto">
+                        <img :src="`./assets/icons/Arrow Right.svg`" alt="" loading="lazy" class="m-auto">
                     </button>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                     <div class="card-feature min-w-[386px] max-w-[386px] max-h-[440px] min-h-[440px] rounded-2xl p-3 border-2 border-white duration-150 hover:shadow-[0px_5px_20px_7px_rgba(0,0,0,0.05)]">
-                        <img :src="`./assets/img/image-3.jpg`" alt="" class="rounded-2xl w-full">
+                        <img :src="`./assets/img/image-3.jpg`" alt="" loading="lazy" class="rounded-2xl w-full">
                         <div class="px-3 mt-6">
                             <h1 class="font-Inter font-semibold text-2xl">Rome, Italy</h1>
                             <h2 class="text-secondary text-sm mt-3">Mountain Hiking Tour</h2>

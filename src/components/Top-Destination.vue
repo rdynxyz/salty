@@ -22,28 +22,28 @@
                 <div class="flex gap-[30px]">
                     <div class="flex flex-col gap-[26px]">
                         <div>
-                            <img :src="`./assets/img/Rectangle 4389.jpg`" alt="" class="rounded-[20px]">
+                            <img :src="`./assets/img/Rectangle 4389.jpg`" alt="" loading="lazy" class="rounded-[20px]">
                         </div>
                         <div class="">
-                            <img :src="`./assets/img/Rectangle 4390.jpg`" alt="" class="rounded-[20px]">
+                            <img :src="`./assets/img/Rectangle 4390.jpg`" alt="" loading="lazy" class="rounded-[20px]">
                         </div>
                     </div>
                     <div class="">
-                        <img :src="`./assets/img/Rectangle 4391.jpg`" alt="" class="rounded-[20px]">
+                        <img :src="`./assets/img/Rectangle 4391.jpg`" alt="" loading="lazy" class="rounded-[20px]">
                     </div>
                 </div>
                 <div class="flex flex-col gap-3">
                     <div class="">
-                        <img :src="`./assets/img/Rectangle 4392.jpg`" alt="" class="rounded-[20px]">
+                        <img :src="`./assets/img/Rectangle 4392.jpg`" alt="" loading="lazy" class="rounded-[20px]">
 
                     </div>
                     <div class="flex gap-[30px]">
                         <div class="">
-                            <img :src="`./assets/img/Rectangle 4394.jpg`" alt="" class="rounded-[20px]">
+                            <img :src="`./assets/img/Rectangle 4394.jpg`" alt="" loading="lazy" class="rounded-[20px]">
 
                         </div>
                         <div class="">
-                            <img :src="`./assets/img/Rectangle 4395.jpg`" alt="" class="rounded-[20px]">
+                            <img :src="`./assets/img/Rectangle 4395.jpg`" alt="" loading="lazy" class="rounded-[20px]">
 
                         </div>
 

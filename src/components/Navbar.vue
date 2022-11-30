@@ -3,7 +3,7 @@
     <div class=" container h-full m-auto flex items-center px-6  ">
         <div class="flex items-center w-full">
             <div class="flex items-center z-50">
-                <img src="../assets/Union.svg" alt="">
+                <img src="../assets/Union.svg" alt="" loading="lazy">
                 <span class="font-Sen font-bold text-xl text-primary">Salty</span>
             </div>
             <span @click="MenuOpen()" class="absolute block md:hidden right-6 text-2xl z-50">

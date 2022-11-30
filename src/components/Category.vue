@@ -4,15 +4,15 @@
         <h1 class="font-semibold text-[56px]">Categories</h1>
         <h2 class="text-base text-secondary mt-2">Here are lots of interesting destinations to visit, <br> but don’t be confused—they’re already grouped <br> by category.</h2>
         <button class="absolute right-0 top-4 bg-primary w-[54px] h-[54px] rounded-full ">
-            <img :src="`./assets/icons/Arrow Right.svg`" alt="" class="m-auto">
+            <img :src="`./assets/icons/Arrow Right.svg`" alt="" loading="lazy" class="m-auto">
         </button>
         <button class="absolute right-[72px] top-4 bg-transparent border-[1px] border-primary w-[54px] h-[54px] rounded-full ">
-            <img :src="`./assets/icons/Arrow Left.svg`" alt="" class="m-auto">
+            <img :src="`./assets/icons/Arrow Left.svg`" alt="" loading="lazy" class="m-auto">
         </button>
         <div class="w-full grid grid-cols-3 md:grid-cols-6 mt-16 gap-[30px]">
             <div class="" v-for="image in Images" :key="image" >
                 <div class="relative group cursor-pointer rounded-full">
-                    <img class="rounded-full img" :src="`./assets/img/${image.link}`" alt="">
+                    <img class="rounded-full img" :src="`./assets/img/${image.link}`" alt="" loading="lazy">
                     <div class="absolute top-0 w-full h-full rounded-full bg-black/30 opacity-0 group-hover:opacity-100 duration-200">
                         <h1 class=" absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-50 font-Inter font-semibold text-[20px] img-hover:text-red-500">Visit</h1>
                     </div>

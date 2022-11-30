@@ -9,7 +9,7 @@
                         <h1 class="font-Inter font-medium text-lg">Where</h1>
                         <div class="flex">
                            <h2 class="font-Inter text-xs text-secondary mr-7">Center Point, Lo...</h2>
-                            <span ><img src="../assets/Map.svg" alt="" ></span>
+                            <span ><img src="../assets/Map.svg" alt="" loading="lazy"></span>
                         </div>
                     </div>
                     <div class="h-f border-r-[1px] border-[#EAEAEB]"></div>
@@ -17,17 +17,17 @@
                         <h1 class="font-Inter font-medium text-lg">Date</h1>
                         <div class="flex">
                             <h2 class="font-Inter text-xs text-secondary mr-7">09th March, 2021</h2>
-                            <span><img src="../assets/Calendar.svg" alt=""></span>
+                            <span><img src="../assets/Calendar.svg" alt="" loading="lazy"></span>
                         </div>
                     </div>
                 </div>
                 <div class="w-[54px] h-[54px] bg-accent rounded-full flex items-center justify-center cursor-pointer">
-                    <span><img src="../assets/MagnifyingGlass.svg" alt=""></span>
+                    <span><img src="../assets/MagnifyingGlass.svg" alt="" loading="lazy"></span>
                 </div>
             </div>
         </div>
         <div class="w-full lg:w-1/2 bg-yellw-100 h-full">
-            <img class="md:w-[533px]" src="../assets/Image.png" alt="">
+            <img class="md:w-[533px]" src="../assets/Image.png" alt="" loading="lazy">
         </div>
     </div>
 </template>

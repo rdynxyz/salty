@@ -1,7 +1,7 @@
 <template>
   <div class="container px-6 py-10 mt-16 m-auto lg:flex text-primary font-Inter">
     <div class="lg:w-1/2 w-full m-auto">
-        <img :src="`./assets/img/Experience.png`" alt="" class="w-[492px] m-auto lg:m-0">
+        <img :src="`./assets/img/Experience.png`" alt="" loading="lazy" class="w-[492px] m-auto lg:m-0">
     </div>
     <div class="lg:w-1/2 w-full flex items-center justify-center"> 
         <div class="">
