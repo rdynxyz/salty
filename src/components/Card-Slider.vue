@@ -1,6 +1,6 @@
 <template>
-    <section class="bg-re-500 pt-28 px-6 text-primary bg-background relative w-full overflow-hidden pb-5">
-        <div class="container m-auto">
+    <section class="relative w-full overflow-hidden">
+        <div class="container m-auto pt-28 px-6 pb-6 text-primary">
             <!-- Header -->
             <div class="md:flex justify-between items-center container m-auto">
                 <h1 class="font-Inter font-semibold text-[56px] leading-[66px]">Find Popular <br> Destination</h1>

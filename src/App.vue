@@ -4,6 +4,7 @@
   import Category from './components/Category.vue'
   import Experience from './components/Experience.vue'
   import CardSlider from './components/Card-Slider.vue'
+  import TopDestination from './components/Top-Destination.vue'
 </script>
 
 <template>
@@ -13,6 +14,7 @@
     <Category/>
     <Experience/>
     <CardSlider/>
+    <TopDestination/>
 
   </div>
 
