@@ -19,6 +19,7 @@ module.exports = {
         'secondary' : '#5B5F62',
         'third' : '#2E476B',
         'forth' : '#939597',
+        'footer' : '#676A6C',
         'accent' : '#F66F4D',
         'background' : '#FAF8ED'
       },
